@@ -7,7 +7,7 @@ interface Props {
 
 export default function MainLayout({ children }: Props) {
   return (
-    <div className='border border-borderColor rounded-md'>
+    <div className='border border-borderColor rounded-md h-full flex flex-col justify-between bg-dark'>
       <Header />
       {children}
       <Footer />

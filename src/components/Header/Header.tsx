@@ -5,7 +5,7 @@ import logo from '~/assets/images/logo.png'
 
 export default function Header() {
   return (
-    <header className='grid grid-cols-12 bg-dark px-4 text-textColor'>
+    <header className='grid grid-cols-12 bg-dark px-4 text-textColor border-b border-borderColor'>
       <Link to='/' className='col-span-2 py-4'>
         felix-nguyen
       </Link>
