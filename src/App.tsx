@@ -4,7 +4,7 @@ import useRouteElements from './useRouteElements'
 function App() {
   const routeElements = useRouteElements()
   return (
-    <div className='bg-black p-12 h-[100vh]'>
+    <div className='relative p-12 h-[100vh]'>
       {routeElements}
       <ToastContainer />
     </div>

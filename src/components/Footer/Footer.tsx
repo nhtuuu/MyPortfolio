@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
-    <footer className='grid grid-cols-12 bg-dark px-4 text-textColor border-t border-borderColor'>
+    <footer className='grid grid-cols-12 bg-dark px-4 text-textColor border-t border-borderColor bg-transparent'>
       <div className='col-span-2 py-4'>find me in:</div>
       <div className='flex col-span-8'>
         <Link
