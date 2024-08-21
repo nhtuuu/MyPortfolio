@@ -57,7 +57,7 @@ export default function ParticlesComponent({ className }: Props) {
             radius: 60,
             links: {
               color: '#FF7F00',
-              opacity: 0.5
+              opacity: 0.4
             }
           }
         }

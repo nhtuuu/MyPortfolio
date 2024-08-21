@@ -16,138 +16,138 @@ export default function LandingPage() {
 
   return (
     <>
-      <div className='grid grid-cols-2 flex-1 bg-dark bg-transparent'>
-        <img src={bgblur} alt='bg-blur' className='absolute top-0 right-5 h-[800px] w-[800px]' />
-        <div className='col-span-1 mx-auto my-auto'>
+      <div className='grid grid-cols-3 bg-dark bg-transparent px-12'>
+        <img src={bgblur} alt='bg-blur' className='absolute top-0 right-[-48px] h-[800px] w-[800px] z-[-1]' />
+        <div className='col-span-2'>
           <div>
-            <span className='text-[#E5E9F0] text-2xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-3xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE] ml-2'>
               H
             </span>
-            <span className='text-[#E5E9F0] text-2xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-3xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               e
             </span>
-            <span className='text-[#E5E9F0] text-2xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-3xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               l
             </span>
-            <span className='text-[#E5E9F0] text-2xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-3xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               l
             </span>
-            <span className='text-[#E5E9F0] text-2xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-3xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               o
             </span>{' '}
-            <span className='text-[#E5E9F0] text-2xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-3xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               w
             </span>
-            <span className='text-[#E5E9F0] text-2xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-3xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               o
             </span>
-            <span className='text-[#E5E9F0] text-2xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-3xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               r
             </span>
-            <span className='text-[#E5E9F0] text-2xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-3xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               l
             </span>
-            <span className='text-[#E5E9F0] text-2xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-3xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               d
             </span>
-            <span className='text-[#E5E9F0] text-2xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-3xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               !
             </span>{' '}
-            <span className='text-[#E5E9F0] text-2xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-3xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               I
             </span>{' '}
-            <span className='text-[#E5E9F0] text-2xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-3xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               am
             </span>
           </div>
           <h1 className='py-4'>
-            <span className='text-[#E5E9F0] text-7xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-8xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               F
             </span>
-            <span className='text-[#E5E9F0] text-7xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-8xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               e
             </span>
-            <span className='text-[#E5E9F0] text-7xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-8xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               l
             </span>
-            <span className='text-[#E5E9F0] text-7xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-8xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               i
             </span>
-            <span className='text-[#E5E9F0] text-7xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-8xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               x
             </span>
-            <span className='text-[#E5E9F0] text-7xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE] pl-6'>
+            <span className='text-[#E5E9F0] text-8xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE] pl-6'>
               N
             </span>
-            <span className='text-[#E5E9F0] text-7xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-8xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               g
             </span>
-            <span className='text-[#E5E9F0] text-7xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-8xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               u
             </span>
-            <span className='text-[#E5E9F0] text-7xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-8xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               y
             </span>
-            <span className='text-[#E5E9F0] text-7xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-8xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               e
             </span>
-            <span className='text-[#E5E9F0] text-7xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
+            <span className='text-[#E5E9F0] text-8xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#4D5BCE]'>
               n
             </span>
           </h1>
           <h2>
-            <span className='text-[#4D5BCE] text-4xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-red-500'>
+            <span className='text-[#4D5BCE] text-5xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#43D9AD]'>
               &gt;
             </span>{' '}
-            <span className='text-[#4D5BCE] text-4xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-red-500'>
+            <span className='text-[#4D5BCE] text-5xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#43D9AD]'>
               F
             </span>
-            <span className='text-[#4D5BCE] text-4xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-red-500'>
+            <span className='text-[#4D5BCE] text-5xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#43D9AD]'>
               r
             </span>
-            <span className='text-[#4D5BCE] text-4xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-red-500'>
+            <span className='text-[#4D5BCE] text-5xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#43D9AD]'>
               o
             </span>
-            <span className='text-[#4D5BCE] text-4xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-red-500'>
+            <span className='text-[#4D5BCE] text-5xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#43D9AD]'>
               n
             </span>
-            <span className='text-[#4D5BCE] text-4xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-red-500'>
+            <span className='text-[#4D5BCE] text-5xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#43D9AD]'>
               t
             </span>
-            <span className='text-[#4D5BCE] text-4xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-red-500'>
+            <span className='text-[#4D5BCE] text-5xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#43D9AD]'>
               -
             </span>
-            <span className='text-[#4D5BCE] text-4xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-red-500'>
+            <span className='text-[#4D5BCE] text-5xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#43D9AD]'>
               e
             </span>
-            <span className='text-[#4D5BCE] text-4xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-red-500'>
+            <span className='text-[#4D5BCE] text-5xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#43D9AD]'>
               n
             </span>
-            <span className='text-[#4D5BCE] text-4xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-red-500'>
+            <span className='text-[#4D5BCE] text-5xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#43D9AD]'>
               d
             </span>{' '}
-            <span className='text-[#4D5BCE] text-4xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-red-500'>
+            <span className='text-[#4D5BCE] text-5xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#43D9AD]'>
               d
             </span>
-            <span className='text-[#4D5BCE] text-4xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-red-500'>
+            <span className='text-[#4D5BCE] text-5xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#43D9AD]'>
               e
             </span>
-            <span className='text-[#4D5BCE] text-4xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-red-500'>
+            <span className='text-[#4D5BCE] text-5xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#43D9AD]'>
               v
             </span>
-            <span className='text-[#4D5BCE] text-4xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-red-500'>
+            <span className='text-[#4D5BCE] text-5xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#43D9AD]'>
               l
             </span>
-            <span className='text-[#4D5BCE] text-4xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-red-500'>
+            <span className='text-[#4D5BCE] text-5xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#43D9AD]'>
               o
             </span>
-            <span className='text-[#4D5BCE] text-4xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-red-500'>
+            <span className='text-[#4D5BCE] text-5xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#43D9AD]'>
               p
             </span>
-            <span className='text-[#4D5BCE] text-4xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-red-500'>
+            <span className='text-[#4D5BCE] text-5xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#43D9AD]'>
               e
             </span>
-            <span className='text-[#4D5BCE] text-4xl inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-red-500'>
+            <span className='text-[#4D5BCE] text-5xl font-extrabold inline-block transition-all duration-200 hover:-translate-y-[8px] hover:text-[#43D9AD]'>
               r
             </span>
           </h2>

@@ -1,11 +1,11 @@
 const path = {
   home: '/',
-  user: '/user',
-  profile: '/user/profile',
-  changePassword: '/user/password',
+  about: '/about-me',
+  bio: '/about-me/bio',
+  education: '/about-me/education',
   historyPurchase: '/user/purchase',
-  login: '/login',
-  register: '/register',
+  projects: '/projects',
+  contact: '/contact',
   logout: '/logout',
   productDetail: ':nameId',
   cart: '/cart'
