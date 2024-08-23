@@ -2,7 +2,7 @@ import classNames from 'classnames'
 
 export default function Footer() {
   return (
-    <footer className='grid grid-cols-12 bg-dark px-4 text-textColor border-t border-borderColor bg-transparent'>
+    <footer className='grid grid-cols-12 bg-dark px-4 text-textMainColor border-t border-borderColor bg-transparent'>
       <div className='flex col-span-1 py-4 text-nowrap'>find me in:</div>
       <div className='flex col-span-9'>
         <a

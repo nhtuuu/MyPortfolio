@@ -15,7 +15,8 @@ module.exports = {
       },
       colors: {
         dark: '#011627',
-        textColor: '#607B96',
+        textMainColor: '#607B96',
+        textSecondaryColor: '#E5E9F0',
         borderColor: '#1E2D3D'
       }
     }

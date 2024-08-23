@@ -6,15 +6,15 @@ import path from '~/constants/path'
 
 export default function Header() {
   return (
-    <header className='grid grid-cols-12 px-4 text-textColor border-b border-borderColor'>
-      <Link to='/' className='flex items-center col-span-2 py-4 border-r border-borderColor '>
+    <header className='grid grid-cols-10 text-textMainColor border-b border-borderColor'>
+      <Link to='/' className='flex items-center col-span-2 py-4 pl-4 border-r border-borderColor '>
         felix-nguyen
       </Link>
-      <div className='flex col-span-8'>
+      <div className='flex col-span-7'>
         <Link
           to='/'
           className={classNames('px-5 py-4 border-r border-borderColor flex items-center', {
-            'border-b-2 border-b-[#FEA55F] text-[#E5E9F0]': true
+            'border-b-2 border-b-[#FEA55F] text-textSecondaryColor': true
           })}
         >
           _hello-world
@@ -26,7 +26,7 @@ export default function Header() {
           _projects
         </Link>
       </div>
-      <Link to={path.contact} className='col-span-2 py-4 pl-5 ml-auto border-l border-borderColor flex items-center'>
+      <Link to={path.contact} className='col-span-1 py-4 px-4 ml-auto border-l border-borderColor flex items-center'>
         _contact-me
       </Link>
     </header>
