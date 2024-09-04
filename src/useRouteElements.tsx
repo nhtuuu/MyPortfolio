@@ -7,6 +7,7 @@ import AboutMeLayout from './pages/AboutMe/layouts/AboutMeLayout'
 import Bio from './pages/AboutMe/pages/Bio'
 import Education from './pages/AboutMe/pages/Education'
 import Projects from './pages/Projects/Projects'
+import Contact from './pages/Contact'
 
 export default function useRouteElements() {
   const routeElements = useRoutes([
@@ -28,6 +29,10 @@ export default function useRouteElements() {
       ),
       children: [
         {
+          path: path.about,
+          element: <Bio />
+        },
+        {
           path: path.bio,
           element: <Bio />
         },
@@ -43,6 +48,15 @@ export default function useRouteElements() {
       element: (
         <MainLayout>
           <Projects />
+        </MainLayout>
+      )
+    },
+    {
+      path: path.contact,
+      index: true,
+      element: (
+        <MainLayout>
+          <Contact />
         </MainLayout>
       )
     },

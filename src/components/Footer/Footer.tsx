@@ -40,14 +40,14 @@ export default function Footer() {
             </defs>
           </svg>
         </a>
-        <a href='' className='flex items-center justify-center w-16 border-r border-borderColor'>
+        {/* <a href='' className='flex items-center justify-center w-16 border-r border-borderColor'>
           <svg width='21' height='21' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'>
             <path
               d='M36.6526 3.8078H43.3995L28.6594 20.6548L46 43.5797H32.4225L21.7881 29.6759L9.61989 43.5797H2.86886L18.6349 25.56L2 3.8078H15.9222L25.5348 16.5165L36.6526 3.8078ZM34.2846 39.5414H38.0232L13.8908 7.63406H9.87892L34.2846 39.5414Z'
               fill='#607B96'
             />
           </svg>
-        </a>
+        </a> */}
       </div>
       <a
         href='https://github.com/nhtuuu'
